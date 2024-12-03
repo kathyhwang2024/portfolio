@@ -1,0 +1,55 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 200px 40px;
+    padding: 50px;
+    border: 2px black solid;
+    margin: 30px;
+    border: 2px white solid;
+}
+
+.main {
+    grid-column: 1 / 4;
+    background-color: black;
+    padding: 5px;
+    color: white;
+}
+
+.menu {
+    background-color: green;
+}
+
+.about {
+    
+}
+
+.projects {
+    
+}
+
+.emptyspace {
+    background-color: black;
+    grid-column: 4 / 10;
+
+}
+
+.third {
+    background-color: black;
+    color: white;
+    grid-column: 10 / -1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    grid-row: 2 / -1;
+    grid-column: 1 / -1;
+
+}
+
+
+
