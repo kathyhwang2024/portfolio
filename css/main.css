@@ -1,23 +1,7 @@
-html, body {
+#main {
+    grid-column: 1 / 4;
     background-color: black;
-    height: 100%;
-    width: 100%;
+    padding: 5px;
     color: white;
-
 }
 
-.container {
-    padding: 50px;
-    margin: 30px;
-    border: 2px white solid;
-}
-
-
-h1 {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-}
-
-h4 {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
